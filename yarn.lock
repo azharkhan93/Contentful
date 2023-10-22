@@ -38,7 +38,22 @@
   dependencies:
     regenerator-runtime "^0.14.0"
 
-"@contentful/rich-text-types@^16.0.2":
+"@contentful/rich-text-html-renderer@^16.2.0":
+  version "16.2.0"
+  resolved "https://registry.yarnpkg.com/@contentful/rich-text-html-renderer/-/rich-text-html-renderer-16.2.0.tgz#ebf430623e68cfee295b94fdb9b42850206989d3"
+  integrity sha512-yfZ8dLZebuQcPmeFOQvWcjORj52xCwSD/t8Hfizz5t8AJa8k4huzIYPY9DgAp6DPnvt7smQvM7r9QQ7ClftITg==
+  dependencies:
+    "@contentful/rich-text-types" "^16.3.0"
+    escape-html "^1.0.3"
+
+"@contentful/rich-text-react-renderer@^15.18.0":
+  version "15.18.0"
+  resolved "https://registry.yarnpkg.com/@contentful/rich-text-react-renderer/-/rich-text-react-renderer-15.18.0.tgz#9b2b8e61f0aa4044bebae8bc1b3f3a8612ff992c"
+  integrity sha512-P88UKawb4MTVPaOaiqm5AERfPleUfjFh1Cd7l4/iwVHAW3G1R4tfsDgOK1dOdozqfBfAlf2zMVITmMS6IkT9sg==
+  dependencies:
+    "@contentful/rich-text-types" "^16.3.0"
+
+"@contentful/rich-text-types@^16.0.2", "@contentful/rich-text-types@^16.3.0":
   version "16.3.0"
   resolved "https://registry.yarnpkg.com/@contentful/rich-text-types/-/rich-text-types-16.3.0.tgz#d44145a43b32d61eb4d6a82d3001cdfddbbda42e"
   integrity sha512-OfQmAu5bxE0CgQA3WlUleVej+ifFG/iXmB2DmUl4EyWyFue1aiIvfjxQhcDRSH4n1jUNMJ6L1wInZL8uV5m3TQ==
@@ -920,6 +935,11 @@ escalade@^3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/escalade/-/escalade-3.1.1.tgz#d8cfdc7000965c5a0174b4a82eaa5c0552742e40"
   integrity sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==
+
+escape-html@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/escape-html/-/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
+  integrity sha512-NiSupZ4OeuGwr68lGIeym/ksIZMJodUGOSCZ/FSnTxcrekbvqrgdUxlJOMpijaKZVjAJrWrGs/6Jy8OMuyj9ow==
 
 escape-string-regexp@^4.0.0:
   version "4.0.0"
